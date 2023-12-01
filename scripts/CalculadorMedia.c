@@ -11,13 +11,10 @@ int main(){
     scanf("%f", &n3);
     soma = (n1 + n2 + n3) / 3;
     printf("CALCULANDO SUA MEDIA....... \n");
-    printf("Sua media é %.2f \n", soma);
+    printf("Sua media é: %.2f \n", soma);
     if(soma >= 7.0){
         printf("Aprovado \n");
     }else{
         printf("Reprovado \n");
-    }
-    
-    
-
+    }  
 }
